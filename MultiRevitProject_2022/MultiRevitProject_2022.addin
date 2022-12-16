@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command MultiRevitProject_2022</Text>
+    <Description>Some description for MultiRevitProject_2022</Description>
+    <Assembly>MultiRevitProject_2022.dll</Assembly>
+    <FullClassName>MultiRevitProject.Command</FullClassName>
+    <ClientId>1f212eab-bb77-4d3e-970a-b8fe9839bcf4</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application MultiRevitProject_2022</Name>
+    <Assembly>MultiRevitProject_2022.dll</Assembly>
+    <FullClassName>MultiRevitProject.App</FullClassName>
+    <ClientId>742811cf-5a6b-44ee-947f-7adbbbbcf4bc</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
